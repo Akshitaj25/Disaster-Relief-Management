@@ -1,0 +1,177 @@
+:root{
+    --bs-body-bg:rgb(196, 196, 177);
+}
+.cont{
+    position: relative;
+    top: 25px;
+    width: 100%;
+    height:fit-content;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+.dnt{
+    width:fit-content;
+    color:black;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    position: relative !important;
+    justify-content: center !important;
+    
+}
+
+.dnt img {
+    margin-top: 20px;
+    width: 98%;
+    max-height: 550px;
+    margin-left: auto;
+    margin-right: auto; 
+    box-shadow: 0px 0px 10px 5px #1c0f04;   
+}
+
+.DonateBox{
+    height: 200px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -130px;
+    /* background-color:#1c0f04; */
+    background-color: #3e505b;
+}
+.DonateBox .DonateBox1{
+    /* background-color: #427aa1; */
+    width: 100%;
+    color: rgb(219, 219, 198);
+    font-size: 50px;
+    font-weight: bold;
+}
+.DonateBox .DonateBox2{
+    padding-right: 70px;
+    padding-left: 70px;
+    background-color: rgb(196,196,177);
+    height: 100%;
+    color:#1c0f04;
+    vertical-align: middle;
+    margin-top: auto;
+    font-size: larger;
+    margin-bottom: auto;
+}
+.DonateBox .DonateBox2 p{
+    color:#1c0f04 !important;
+    text-align: justify;
+    margin-bottom: 0px !important;
+    font-size: medium;
+}
+
+.Desc{
+    position: relative;
+    top: -80px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Desc p{
+    font-size: large;
+    color: #1c0f04;
+    padding-left: 53px;
+    padding-right: 53px;
+    text-align: center;
+}
+.Desc .para{
+    text-align: justify;
+}
+
+.Desc .don-heading{
+    position: relative;
+    top: 20px;
+    background-color: rgb(53, 53, 53);
+    /* background-color: #61493e; */
+    color: rgb(219, 219, 198);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.drp-dwn{
+    position: relative;
+    top: 40px;
+    width: 80% !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+.accordion-flush>.accordion-item{
+    margin-bottom: 20px;
+    /*height: 70px; */
+}
+.accordion-header{
+    color: #1c0f04;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    text-align: left;
+    /* height: 60px; */
+}
+h2{
+    text-decoration: none !important;
+}
+.accordion-button,#root > div > div.cont > div.Desc.justify-content-center.align-items-center > div.drp-dwn > div > div:nth-child(1) > h2 > button{
+    text-align: left;
+    height: 70px;
+    font-size: 20px;
+    /* height: 60px; */
+    font-weight: bold;
+    background-color:rgb(196, 196, 177);
+    color:#1c0f04;
+}
+
+.accordian{
+    --bs-accordion-active-color: #1c0f04;
+    --bs-accordion-btn-focus-box-shadow:none;
+    --bs-accordion-bg:rgb(196, 196, 177) !important;
+}
+.accordion-button:not(.collapsed), .accordion-button:not(.collapsed):active, .accordion-button:not(.collapsed):hover , .accordion-button:not(.collapsed):focus , .accordion-button:not(.collapsed):visited{
+    border: 1px solid #1c0f04;
+    border-bottom: none;
+    color: #1c0f04;
+    /* height: 60px!important; */
+    background-color:rgb(196, 196, 177);
+    box-shadow: none;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-button::after {
+    background-image: url(./assets/accordion_icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 10px;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 300ms ease-in-out;
+    width: 10px;
+    will-change: transform;
+}
+.accordion-flush>.accordion-item>.accordion-collapse{
+    border: 1px solid #1c0f04;
+    border-top: none;
+    position: relative;
+    margin-top:-5px;
+}
+.accordion-flush>.accordion-item>.accordion-collapse>.accordion-body{
+    color: #1c0f04;
+    background-color:rgb(196, 196, 177);
+    padding: 20px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.copyright{
+    text-align: center;
+}

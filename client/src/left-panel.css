@@ -1,0 +1,27 @@
+.left-panel{
+    margin-right: 20%;
+    margin-left: 10%;
+}
+.left-panel h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.leftcont{
+    /* background-color: aqua; */
+    padding: 10px;
+}
+.left-panel ul{
+    list-style-type:square;
+    padding-left: 0px;
+}
+
+.left-panel ul a{
+    text-decoration: underline;
+    color: #1c0f04;
+}
+
+.left-panel ul a:hover{
+    color: #3e505b;
+}

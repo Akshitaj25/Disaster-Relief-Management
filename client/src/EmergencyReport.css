@@ -1,0 +1,109 @@
+.RepEmHead1{
+    text-align: center;
+}
+.RepEmP1{
+    text-align: justify;
+    width: 80%;
+    font-size: medium;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.RepEmP1 p{
+    margin-top: 7px;
+    color:black !important;
+}
+
+.greywrapper{
+    background-color: rgb(196,196,177);
+    height: fit-content;
+    padding-bottom: 30px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.contactshead{
+    background-color: #3e505b;
+    height:fit-content;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    position: relative;
+    top: -15px;
+    text-align: center;
+    color: beige;
+    font-weight: bold;
+}
+
+.nums{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.nums li{
+    width: 100%;
+    color: black;
+    /* margin-left: 20px;
+    margin-right: 10px; */
+}
+
+.report-form{
+    margin-top:30px;
+}
+
+.report-form .formhead{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    /* margin-bottom: 20px; */
+    text-transform: uppercase;
+
+}
+.report-form .formheadp{
+    margin-top: -2px;
+    color: black !important;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: smaller;
+}
+.report-form form{
+    width: 80%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button, input, optgroup, select, textarea{
+    width: 60%;
+}
+.report-form form .flex-item{
+    flex: 0 0 50%; /* Set width to 50% of the container */
+    margin: 10px; /* Optional: Add spacing between items */
+    /* Your item styles here */
+    display: flex;
+    justify-content: space-between;
+  }
+
+.report-form .form-labels{
+    margin-bottom: 10px;
+    margin-right: auto;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-left: auto;
+}
+
+#root > div > div.report-form > form > div:nth-child(6) > button{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+

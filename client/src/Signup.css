@@ -1,0 +1,61 @@
+h2{
+    font-size:1.8rem;
+    text-align:center;
+    text-decoration:underline;
+}
+p{
+    font-size:0.9rem;
+    color:beige;
+}
+.bg{
+    background-image: url("./assets/bg.jpg");
+    background-repeat:  no-repeat; 
+    background-position: center;
+    background-size: cover;
+    background-color:#dde2b8;
+    /* background-image:'client\src\assets\360_F_620133022_CMLtda7ZzWk6bTAMfRr3rxVFkeUzNu3O.jpg' */
+}
+
+.bg-light {
+    background-color: beige !important;
+}
+.form-control{
+    background-color: beige !important;
+}
+.container1{
+    background-color:rgba(0, 0, 0, 0.829) !important;
+    color:beige;
+    box-shadow: rgba(255, 232, 204, 0.856) 0px 8px 24px;
+}
+.btn-success{
+    background-color:rgb(146, 82, 56);
+    border:none;
+    margin-top: 23px;
+}
+.btn-success:hover{
+    background-color:rgb(179, 85, 19);
+    color:beige !important;
+}
+.btn-success:active{
+    background-color:chocolate !important;
+}
+.btn-success:disabled{
+    background-color:chocolate !important;
+}
+
+.btn-default:hover{
+    color:rgb(95, 99, 121);
+}
+.btn-default:active{
+    color:rgb(95, 99, 121) !important;
+}
+#password-errors{
+    /* margin-top:-1rem !important; */
+    font-size:0.8rem;
+    margin-top: -13px;
+}
+#login-errors{
+    font-size:0.8rem;
+    margin-top: -13px;
+}
+

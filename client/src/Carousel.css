@@ -1,0 +1,28 @@
+.carousel-container {
+    width: 100%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the carousel horizontally */
+    overflow: hidden; /* Hide overflow for continuous loop */
+    height: 270px;
+}
+  
+.carousel-item {
+    display: inline-block; /* Display images side-by-side */
+    width: 33.33%; /* Set width based on slidesToShow (3) */
+    text-align: center; /* Center content within slides */
+    margin: 0 10px; /* Add margin between slides */
+}
+  
+.carousel-item img {
+    width: 100%; /* Display image full width within slide */
+    height: auto; /* Maintain aspect ratio */
+    min-height: 270px; /* Set minimum height for images */
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+#root > div > div.carousel-container > div > button.slick-arrow.slick-prev{
+    display: none !important;
+}
+#root > div > div.carousel-container > div > button.slick-arrow.slick-next{
+    display: none !important;
+}
